@@ -13,6 +13,16 @@ What Does This Script Do:
 
 ## Colorful Hierarchy Tool
 ## Frames-Per-Second Tool 
+📜🕹️ **An FPS Tracker to View the Average, Minimum, Maximum and Current FPS, uses a GameObject added into the Scene to Display Information on Screen when in PlayMode.**
+
+What Does This Script Do:
+- [x] Shows Current, Average, Min and Max FPS
+- [x] Uses an Empty GameObject Placed In a Scene to Display FPS when in PlayMode
+- [x] Optional Toggle to Show Device Information
+- [x] Works in Editor and Build
+
+[View the Script Here](https://github.com/KieronJenkins/UnityToolbox/tree/main/FPSTracker)
+
 ## Procedural Grid Shadergraph
 📜🔳 **Shadergraph Material that allows the user to add a grid material to any object without needing any textures.**
 
