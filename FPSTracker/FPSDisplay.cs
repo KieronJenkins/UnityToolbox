@@ -14,18 +14,27 @@ public class FPSDisplay : MonoBehaviour
 
     private string _displayFPSText;
 
-    [Header("Frames Per Second")] 
-    [Space] [SerializeField] private Color _textColor = Color.white;
-    [Space] [SerializeField] private int _textSize = 3;
-    [Space] [SerializeField] private Vector2 _textPlacement = new Vector2(10, 10);
+    [Header("Frames Per Second")] [Space] [SerializeField]
+    private Color _textColor = Color.white;
 
-    [Header("Device Information")] [Space] [SerializeField]
-    private bool _displayDeviceInfo = false;
+    [Space] [SerializeField] private int _textSize = 3;
+    [Space] [SerializeField] private Vector2 _textPlacement = new Vector2(20, 20);
+    [Space]
+    [Header("Device Information")] 
+    [Space] [SerializeField] private bool _displayDeviceInfo = false;
+    [Space]
+    [Header("Development Testing")] 
+    [Space] [SerializeField] private int _targetFramerate = 60;
 
     private bool _CheckMinimumFPS = false;
 
     private float _minimumFPSTimerStart = 0.0f;
-    private float _minimumFPSTimerEnd = 1.0f;
+    private float _minimumFPSTimerEnd = 2.0f;
+
+    private void Awake()
+    {
+        Application.targetFrameRate = _targetFramerate;
+    }
 
     private void Update()
     {
@@ -83,17 +92,23 @@ public class FPSDisplay : MonoBehaviour
         _deltaTime = Time.unscaledDeltaTime;
 
         _framesPerSecond = 1.0f / _deltaTime;
-        if (_framesPerSecond > _maximumFPS)
-        {
-            _maximumFPS = _framesPerSecond;
-            _maximumDeltaTime = _deltaTime;
-        }
 
         _averageFPS = (_averageFPS + _framesPerSecond) / 2.0f;
         _averageDeltaTime = 1.0f / _averageFPS;
 
         if (_CheckMinimumFPS)
         {
+            if (_framesPerSecond > _maximumFPS)
+            {
+                _maximumFPS = _framesPerSecond;
+                _maximumDeltaTime = _deltaTime;
+
+                if (_maximumFPS > _targetFramerate)
+                {
+                    _maximumFPS = _targetFramerate;
+                }
+            }
+
             if (_framesPerSecond < _minimumFPS)
             {
                 _minimumFPS = _framesPerSecond;
