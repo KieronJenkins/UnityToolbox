@@ -11,7 +11,6 @@ What Does This Script Do:
 
 [View the Script Here](https://github.com/KieronJenkins/UnityObjectRadius)
 
-## Colorful Hierarchy Tool
 ## Frames-Per-Second Tool 
 📜🕹️ **An FPS Tracker to View the Average, Minimum, Maximum and Current FPS, uses a GameObject added into the Scene to Display Information on Screen when in PlayMode.**
 
