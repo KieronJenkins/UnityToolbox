@@ -14,8 +14,8 @@ public class FPSDisplay : MonoBehaviour
 
     private string _displayFPSText;
 
-    [Header("Frames Per Second")] [Space] [SerializeField]
-    private Color _textColor = Color.white;
+    [Header("Frames Per Second")] 
+    [Space] [SerializeField] private Color _textColor = Color.white;
 
     [Space] [SerializeField] private int _textSize = 3;
     [Space] [SerializeField] private Vector2 _textPlacement = new Vector2(20, 20);
