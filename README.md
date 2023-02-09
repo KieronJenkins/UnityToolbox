@@ -33,3 +33,8 @@ What Does This Shadergraph Do:
 - [x] Adjust Both Main and Secondary Grid Size
 
 [View the Shadergraph Here](https://github.com/KieronJenkins/UnityToolbox/tree/main/Shadergraphs/ProceduralGrid)
+
+## Unity Script Gists
+📜🕹️ **A Collection of Various Scripts Created for use within Unity**
+
+[HLSL Base Lit and Unlit Shaders](https://gist.github.com/KieronJenkins/97f4e7e4c419ef613b6f0bb60f21c52f)
