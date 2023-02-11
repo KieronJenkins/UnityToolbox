@@ -23,6 +23,16 @@ What Does This Script Do:
 
 [View the Script Here](https://github.com/KieronJenkins/UnityToolbox/tree/main/FPSTracker)
 
+## Folder Setup Window 
+📜🕹️ **An Editor Window that Allows the User to Create a New Folder or Directory with a Custom Name with the Option to Add Standard Folders at the same time or on their own.**
+
+What Does This Script Do:
+- [x] Shows an Editor Window
+- [x] Create a New Folder or Directory with Custom Name
+- [x] Optional Toggle to Add Standard Folders
+
+[View the Script Here](https://github.com/KieronJenkins/UnityToolbox/tree/main/FolderSetup)
+
 ## Procedural Grid Shadergraph
 📜🔳 **Shadergraph Material that allows the user to add a grid material to any object without needing any textures.**
 
