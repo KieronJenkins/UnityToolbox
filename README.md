@@ -33,6 +33,16 @@ What Does This Script Do:
 
 [View the Script Here](https://github.com/KieronJenkins/UnityToolbox/tree/main/FolderSetup)
 
+## Unity AutoSave Tool
+📜🕹️ **An Editor Script that creates a scriptable object that allows the user to set an interval time in minutes that autosaves any current open scenes in Unity**
+
+What Do These Scripts Do:
+- [x] Creates a Scriptable Object that Allows the User to Adjust AutoSave Intervals
+- [x] AutoSaves Any Open Unity Scenes
+- [x] Can be Created and/or Reset through a Menu
+
+[View the Script Here](https://github.com/KieronJenkins/UnityToolbox/tree/main/AutoSave)
+
 ## Procedural Grid Shadergraph
 📜🔳 **Shadergraph Material that allows the user to add a grid material to any object without needing any textures.**
 
