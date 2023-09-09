@@ -43,6 +43,16 @@ What Do These Scripts Do:
 
 [View the Script Here](https://github.com/KieronJenkins/UnityToolbox/tree/main/AutoSave)
 
+## TextMeshPro Color Based on Skybox Brightness
+📜🕹️ **Originally created for a specific use case, this script will adjust any TextMeshPro GUI Text to a specified color if the scenes Skybox brightness is below a certain level.**
+
+What Does This Script Do:
+- [x] Allows Multiple TMP Assets to Change Color Based on the Skyboxes Brightness.
+- [x] User Can Assign Specific Names to Shader/Texture Lists to be used.
+- [x] User Can Customise What Color They Want The TMP Text to change to.
+
+[View the Script Here](https://github.com/KieronJenkins/UnityToolbox/tree/main/TMPBrightnessBasedColor)
+
 ## Procedural Grid Shadergraph
 📜🔳 **Shadergraph Material that allows the user to add a grid material to any object without needing any textures.**
 
